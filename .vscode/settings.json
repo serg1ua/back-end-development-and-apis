@@ -20,9 +20,9 @@
     "build-a-case-converter": true,
     "build-a-prime-number-checker-module": true,
     "build-a-file-processor": true,
-    "build-a-family-movie-watchlist-api": false,
+    "build-a-family-movie-watchlist-api": true,
     "build-a-random-joke-app": true,
-    "build-a-personal-profile-app": true,
+    "build-a-personal-profile-app": false,
     "build-a-submission-form": true,
     "build-a-data-sanitizer": true,
     "build-a-weather-service-api": true,
@@ -31,7 +31,7 @@
     "build-a-chat-app": true,
     "build-jwt-protected-routes": true
   },
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "files.autoSave": "off",
   "freecodecamp-courses.autoStart": false,
   "freecodecamp-courses.prepare": "touch $(pwd)/.logs/.freecodecamp-os-lockfile",
@@ -42,16 +42,13 @@
       "open": true,
       "showLoader": true,
       "timeout": 4000,
-      "url": "https://humble-happiness-r76w97g9gw625p65-8080.app.github.dev"
+      "url": "https://automatic-adventure-9q7prxvwgvh7j99-8080.app.github.dev"
     }
   ],
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.profiles.linux": {
     "bash": {
-      "args": [
-        "--init-file",
-        "./bash/sourcerer.sh"
-      ],
+      "args": ["--init-file", "./bash/sourcerer.sh"],
       "icon": "terminal-bash",
       "path": "bash"
     }
