@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "data sanitizer",
   "license": "BSD-3-Clause",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
+    "body-parser": "^2.3.0",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
